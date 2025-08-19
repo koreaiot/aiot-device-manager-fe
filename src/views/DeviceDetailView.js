@@ -64,6 +64,7 @@ export class DeviceDetailView extends BaseView {
   /**
    * 디바이스 정보 채우기
    */
+  
   populateDeviceInfo() {
     if (!this.device) return;
 
